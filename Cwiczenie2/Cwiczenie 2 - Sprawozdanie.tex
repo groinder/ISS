@@ -1,0 +1,458 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[usenames,dvipsnames]{color}
+\addtolength{\hoffset}{-2cm}
+\addtolength{\voffset}{-3cm}
+\addtolength{\textwidth}{4cm}
+\addtolength{\textheight}{5cm}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\lstset{
+    language=Matlab,
+    basicstyle=\scriptsize,
+    aboveskip={1.5\baselineskip},
+    columns=fixed,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true,
+    tabsize=4,
+    prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+    frame=single,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    identifierstyle=\ttfamily,
+    keywordstyle=\color[rgb]{0,0,1},
+    commentstyle=\color[rgb]{0.133,0.545,0.133},
+    stringstyle=\color[rgb]{0.627,0.126,0.941},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    captionpos=b,
+    escapeinside={\%*}{*)}
+}
+
+\def\figurename{Rys.}
+\def\lstlistingname{Fun.}
+
+\title{Informatyczne Systemy Sterowania \\ \large Ćwiczenie 2: Systemy regulacji - Regulator PID}
+
+\author{Krzysztof Przybylski 239266}
+
+\begin{document}
+\maketitle
+
+\section{Wstęp}\label{sec:wstęp}
+\subsection{Cel ćwiczenia}
+Celem tego ćwiczenia jest poznanie podstawowej struktury systemu sterowania z typową formą algorytmu regulacji PID, oraz zapoznanie się z częścią pakietu M\small ATLAB \normalsize - Simulinkiem, oraz jego możliwości w zakresie modelowania i analizy systemów regulacji.
+%Więcej?
+
+\subsection{Plan badań} 
+\begin{enumerate}
+	\item Symulacja systemu regulacji
+	\begin{enumerate}
+		\item Regulator P. Zbadać wpływ wartości wzmocnienia regulatora na działanie systemu. 
+	    \item Regulator   PI.   Zbadać  wpływ   wartości   parametru   całkowania   na   działanie   systemu 
+       (dla ustalonej wartości parametru $k$). 
+    	\item Regulator PID. Zbadać wpływ wartości parametru różniczkowania na działanie 
+       systemu (dla ustalonych wartości parametrów $k$ i $T_i$). 
+	\end{enumerate}
+	\item Dobór optymalnych parametrów regulatora. Sporządzenie wykresów:
+	\begin{enumerate}
+		\item dla regulatora P. 
+    	\item dla regulatora PI przy trzech różnych ustalonych wartościach parametru $k$.  
+    	\item dla regulatora PID przy trzech różnych wartościach parametru oraz ustalonej wartości parametru $k$.
+	\end{enumerate}
+	\item Dobór parametrów regulatora PID według zasad Zieglera–Nicholsa
+	\begin{enumerate}
+		\item Doświadczalnie znaleźć współczynnik wzmocnienia, dla którego układ traci stabilność.
+		\item Ustalić okres oscylacji i wzmocnienie krytyczne.
+		\item Według odpowiednich rekomendacji określić wartości parametrów regulatora PID.
+	\end{enumerate}
+\end{enumerate}
+Zadania należy wykonać dla obiektu o podanej transmitancji operatorowej:
+\begin{equation} \label{eqn:transOS}
+	G(s) = \frac{b}{s^3 + a_2 s^2 + a_1 s + a_0}
+\end{equation}
+%Copy/Paste z treści zadania...
+
+\newpage
+\section{Realizacja planu i wyniki}
+
+%---------------------------------------------------------------------------------------------------------------------
+%
+%ZADANIE 1
+%
+%---------------------------------------------------------------------------------------------------------------------
+\subsection{Symulacja systemu regulacji.}\label{sec:zad1}
+System regulacji będziemy symulować przy użyciu programu Simulink będącego częścią pakietu M\small ATLAB. \\
+\normalsize Schemat systemu służącego nam do symulacji przedstawiony został na poniższym rysunku.
+
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=120mm]{schemat.png}
+	\caption{Schemat symulacji obiektu z regulatorem PID}
+    \label{fig:Rysunek}
+\end{figure}
+
+Wartości błędu regulacji $\varepsilon(t)$ mogą być odczytywane zarówno na wykresie $Scope$ jak i z poziomu M\small ATLABA \normalsize dzięki obiektowi $simout$.
+
+Regulator PID jest opisany następującą transmitancją:
+\begin{equation} \label{eqn:transPID}
+	G(s) = k + {T_{i} \over s} + T_{d}s ,
+\end{equation}
+gdzie $k$ to współczynnik wzmocnienia, $T_{i}$ to parametr członu całkującego, a $T_{d}$ to parametr członu różniczkującego.
+
+Podczas ćwiczenia przyjęliśmy następujące wartości parametrów transmitancji obiektu sterowania (\ref{eqn:transOS}): 
+\begin{equation} \label{eqn:paramTransOS}
+	b = 1,
+	a_{2} = 5, 
+	a_{1} = 1, 
+	a_{0} = 3
+\end{equation}
+oraz zadanej wartości wyjścia $y^{*} = 1$.
+
+\subsubsection{Regulator P.}\label{sec:regP}
+Aby zasymulować regulator P musieliśmy ustawić wartości parametru całkującego i różniczkującego na $T_{i}=0$, $T_{d}=0$. \\
+Następnie wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora P dla różnych wartości parametru $k$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator P.]
+function testP(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+k = start;
+color = char('g', 'm', 'r', 'k', 'b', 'y');
+set_param('pidModel/PID Controller', 'I', num2str(0));
+set_param('pidModel/PID Controller', 'D', num2str(0));
+i = 0;
+legend('on');
+while (k <= stop)
+	set_param('pidModel/PID Controller', 'P', num2str(k));
+	sim('pidModel.mdl');
+	figure(1);
+	plot(simout.time, simout.signals.values, 'Color', color(mod(i,6)+1), 'DisplayName', strcat('k=',num2str(k)));
+	i = i + 1;
+	k = k + step;
+end
+end
+\end{lstlisting}
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{P-ku.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora P dla wartości ujemnych k.}
+    \label{fig:regulatorPeu}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{P-kd.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora P dla wartości dodatnich k.}
+    \label{fig:regulatorPed}
+\end{figure}
+\\ Z wykresu \ref{fig:regulatorPeu}, oraz \ref{fig:regulatorPed} możemy zauważyć, że:
+\begin{itemize}
+	\item Dla ujemnych wartości parametru $k$ drgania po pewnym czasie ustają, a wykres $\varepsilon(t)$ stabilizuje się na pewnym poziomie większym od żądanej wartości $y*$, a poziom ten jest tym większy im mniejsza jest wartość parametru $k$.
+	\item Dla wartości dodatnich wykres $\varepsilon(t)$ przyjmuje postać drgań oscylujących wokół wartości ~0.6. Dla wartości $k$ mniejszych od 2 amplituda tych drgań maleje, natomiast rośnie dla wartości większych od 2. Dla $k=2$ amplituda tych drgań jest stała.
+	\item Regulator P nie jest efektywny, ponieważ wykres funkcji $\varepsilon(t)$ oscyluje poniżej wartości $y*$, ale nie wokół 0.
+\end{itemize}
+\subsubsection{Regulator PI.}\label{sec:regPI}
+Aby zasymulować regulator PI musieliśmy ustawić wartości parametru proporcjonalnego i różniczkującego na $k=2$, $T_{d}=0$. \\
+Następnie wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora PI dla różnych wartości parametru $T_{i}=0$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator PI.]
+function testPI(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+ti = start;
+i = 0;
+color = char('g', 'm', 'r', 'k', 'b', 'y');
+set_param('pidModel/PID Controller', 'P', num2str(2));
+set_param('pidModel/PID Controller', 'D', num2str(0));
+legend('on');
+while (ti <= stop)
+	set_param('pidModel/PID Controller', 'I', num2str(ti));
+	sim('pidModel.mdl');
+	figure(1);
+	plot(simout.time, simout.signals.values, 'Color', color(mod(i,6)+1), 'DisplayName', strcat('k=',num2str(ti)));
+	i = i + 1;
+	ti = ti + step;
+end
+end
+\end{lstlisting}
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-ku.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora PI dla wartości ujemnych $T_{i}$.}
+    \label{fig:regulatorPIeu}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-kd.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora PI dla wartości dodatnich $T_{i}$.}
+    \label{fig:regulatorPIed}
+\end{figure}
+\newpage Z wykresu \ref{fig:regulatorPIeu}, oraz \ref{fig:regulatorPIed} możemy zauważyć, że:
+\begin{itemize}
+	\item Dla ujemnych wartości parametru $T_{i}$ wartości funkcji $\varepsilon(t)$ szybko rosną. Tempo w jakim wzrasta jest tym większe im mniejszą wartość ma parametr $T_{i}$.
+	\item Dla wartości dodatnich wykres $\varepsilon(t)$ przyjmuje postać drgań, które z początku oscylują tak jak przy regulatorze P, lecz z czasem oscylują wokół wartości coraz bliższej 0. Tempo w jakim zbliża się do 0 jest tym większe im większą wartość ma parametr $T_{i}$. Amplituda drgań z czasem wzrasta.
+	\item Regulator PI jest bardziej efektywny niż regulator P, ponieważ wykres funkcji $\varepsilon(t)$ oscyluje bliżej 0.
+\end{itemize}
+\subsubsection{Regulator PID.}\label{sec:regPID}
+Aby zasymulować regulator PID musieliśmy ustawić wartości parametru proporcjonalnego i całkujacego na $k=2$, $T_{i}=1$. \\
+Następnie wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora P dla różnych wartości parametru $T_{d}$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator PID.]
+function testPID(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+td = start;
+i = 0;
+color = char('g', 'm', 'r', 'k', 'b', 'y');
+set_param('pidModel/PID Controller', 'P', num2str(2));
+set_param('pidModel/PID Controller', 'I', num2str(1));
+legend('on');
+while (td <= stop)
+	set_param('pidModel/PID Controller', 'D', num2str(td));
+	sim('pidModel.mdl');
+	figure(1);
+	plot(simout.time, simout.signals.values, 'Color', color(mod(i,6)+1), 'DisplayName', strcat('k=',num2str(td)));
+	i = i + 1;
+	td = td + step;
+end
+end
+\end{lstlisting}
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-ku.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora PID dla wartości ujemnych $T_{d}$.}
+    \label{fig:regulatorPIDeu}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-kd.png}
+	\caption{Wykres przebiegu funkcji $\varepsilon(t)$ regulatora PID dla wartości dodatnich $T_{d}$.}
+    \label{fig:regulatorPIDed}
+\end{figure}
+\newpage Z wykresu \ref{fig:regulatorPIDeu}, oraz \ref{fig:regulatorPIDed} możemy zauważyć, że:
+\begin{itemize}
+	\item Dla ujemnych wartości parametru $k$ wykres $\varepsilon(t)$ przyjmuje postać drgań, których amplituda z czasem rośnie. Tempo tego wzrostu jest tym większe im mniejszą wartość ma parametr $T_{d}$.
+	\item Dla wartości dodatnich wykres $\varepsilon(t)$ przyjmuje postać drgań, które oscylują tak jak przy regulatorze PI, lecz z czasem amplituda maleje. Tempo w jakim ona maleje tym większe im większą wartość ma parametr $T_{d}$.
+	\item Regulator PID jest efektywny, ponieważ wykres funkcji $\varepsilon(t)$ oscyluje bliżej 0 niż regulator P, a amplituda drgań, która w regulatorze PI się zwiększała tutaj zanika.
+\end{itemize}
+
+%---------------------------------------------------------------------------------------------------------------------
+%
+%ZADANIE 2
+%
+%---------------------------------------------------------------------------------------------------------------------
+\subsection{Dobór optymalnych parametrów regulatora.}\label{sec:zad2}
+Przy doborze optymalnych parametrów przyjęliśmy następujące kryterium:
+\begin{equation} \label{eqn:transOS}
+	Q = {1 \over n}\sum_{i=1}^{n} \varepsilon(t)
+\end{equation}
+Gdzie $n$ jest ilością pomiarów wykonanych przy symulacji.
+
+\subsubsection{Regulator P.}\label{sec:optP}
+Aby dobrać optymalną wartość parametru $k$ ustawiliśmy parametry podobnie jak w zadaniu \ref{sec:regP}, oraz wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora P dla wielu wartości parametru $k$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator P.]
+function optimumP(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+k = start;
+i = 0;
+set_param('pidModel/PID Controller', 'I', num2str(0));
+set_param('pidModel/PID Controller', 'D', num2str(0));
+while (k <= stop)
+	set_param('pidModel/PID Controller', 'P', num2str(k));
+	sim('pidModel.mdl');
+	wy = simout.signals.values;
+	i = i + 1;
+	q(i) = sum(wy.^2)/length(wy);
+	ka(i) = k;
+	k = k + step;
+end
+figure(1);
+plot(ka, q);
+end
+\end{lstlisting}
+
+\newpage
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{P-opt.png}
+	\caption{Wykres przebiegu funkcji $Q(k)$ regulatora P.}
+    \label{fig:regulatorPopt1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{P-opt-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(k)$ regulatora P (powiększenie).}
+    \label{fig:regulatorPopt2}
+\end{figure}
+\\ Wartością optymalną parametru $k$ jest minimum funkcji $Q(k)$, więc z wykresu \ref{fig:regulatorPopt1}, oraz \ref{fig:regulatorPopt2} możemy odczytać, że $k = 2$.
+
+\subsubsection{Regulator PI.}\label{sec:optPI}
+Aby dobrać optymalną wartość parametru $T_{i}$ ustawiliśmy parametry podobnie jak w zadaniu \ref{sec:regPI}, oraz wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora P dla wielu wartości parametru $T_{i}$ i trzech różnych wartości $k$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator PI.]
+function optimumPI(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+ti = start;
+i = 0;
+set_param('pidModel/PID Controller', 'D', num2str(0));
+set_param('pidModel/PID Controller', 'P', num2str(4));
+while (ti <= stop)
+	set_param('pidModel/PID Controller', 'I', num2str(ti));
+	sim('pidModel.mdl');
+	wy = simout.signals.values;
+	i = i + 1;
+	q(i) = sum(wy.^2)/length(wy);
+	tei(i) = ti;
+	ti = ti + step;
+end
+figure(1);
+plot(tei, q);
+end
+\end{lstlisting}
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k1.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=1$.}
+    \label{fig:regulatorPIk1opt1}
+\end{figure}
+
+\newpage
+
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k1-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=1$ (powiększenie).}
+    \label{fig:regulatorPIk1opt2}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k2.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=2$.}
+    \label{fig:regulatorPIk2opt1}
+\end{figure}
+
+\newpage
+
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k2-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=2$ (powiększenie).}
+    \label{fig:regulatorPIk2opt2}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k4.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=4$.}
+    \label{fig:regulatorPIk4opt1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PI-opt-k4-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{i})$ regulatora PI dla $k=4$ (powiększenie).}
+    \label{fig:regulatorPIk4opt2}
+\end{figure}
+\newpage Wartością optymalną parametru $T_{i}$ jest minimum funkcji $Q(T_{i})$, więc z wykresów \ref{fig:regulatorPIk1opt1}, \ref{fig:regulatorPIk1opt2}, \ref{fig:regulatorPIk2opt1}, \ref{fig:regulatorPIk2opt2}, \ref{fig:regulatorPIk4opt1}, oraz \ref{fig:regulatorPIk4opt2} możemy odczytać, że dla $k=1, T_{i} \approx 0.14$, dla $k=2, T_{i} \approx 0.06$, natomiast dla $k=4, T_{i} \approx -0.15$.
+
+\subsubsection{Regulator PID.}\label{sec:optPID}
+Aby dobrać optymalną wartość parametru $T_{d}$ ustawiliśmy parametry podobnie jak w zadaniu \ref{sec:regPID}, oraz wykorzystując poniższą funkcję przetestowaliśmy zachowanie regulatora P dla wielu wartości parametru $T_{d}$ i trzech różnych wartości $T_{i}$. \\
+\begin{lstlisting}[caption=Funkcja testująca regulator PID.]
+function optimumPID(start, step, stop)
+load_system('pidModel.mdl');
+hold on;
+td = start;
+i = 0;
+set_param('pidModel/PID Controller', 'P', num2str(2));
+set_param('pidModel/PID Controller', 'I', num2str(0.06));
+while (td <= stop)
+	set_param('pidModel/PID Controller', 'D', num2str(td));
+	sim('pidModel.mdl');
+	wy = simout.signals.values;
+	i = i + 1;
+	q(i) = sum(wy.^2)/length(wy);
+	tede(i) = td;
+	td = td + step;
+end
+figure(1);
+plot(tede, q);
+end
+\end{lstlisting}
+
+\newpage
+W ten sposób otrzymalismy następujące wykresy: \\
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-02.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{d})$ regulatora PID dla $T_{i}=0.02$.}
+    \label{fig:regulatorPIDti15opt1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-02-zoom.png}
+	\caption{Wykres przebiegu funkcji$Q(T_{d})$ regulatora PID dla $T_{i}=0.02$ (powiększenie).}
+    \label{fig:regulatorPIDti15opt2}
+\end{figure}
+\newpage
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-06.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{d})$ regulatora PID dla $T_{i}=0.06$.}
+    \label{fig:regulatorPIDti35opt1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-06-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{d})$ regulatora PID dla $T_{i}=0.06$ (powiększenie).}
+    \label{fig:regulatorPIDti35opt2}
+\end{figure}
+\newpage
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-1.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{d})$ regulatora PID dla $T_{i}=0.1$.}
+    \label{fig:regulatorPIDti100opt1}
+\end{figure}
+\begin{figure}[!h]
+    \centering
+	\includegraphics[width=130mm]{PID-opt-ti-1-zoom.png}
+	\caption{Wykres przebiegu funkcji $Q(T_{d})$ regulatora PID dla $T_{i}=0.1$ (powiększenie).}
+    \label{fig:regulatorPIDti100opt2}
+\end{figure}
+\newpage Wartością optymalną parametru $T_{d}$ jest minimum funkcji $Q(T_{d})$, więc z wykresu \ref{fig:regulatorPIDti15opt1}, \ref{fig:regulatorPIDti15opt2}, \ref{fig:regulatorPIDti35opt1}, \ref{fig:regulatorPIDti35opt2}, \ref{fig:regulatorPIDti100opt1}, oraz \ref{fig:regulatorPIDti100opt2} możemy odczytać, że dla $T_{i}=0.02$, $T_{d} \approx  466.1$, dla $T_{i}=0.06$, $T_{d} \approx 459.8$, oraz dla $T_{i}=0.1, T_{d} \approx 447,7$.
+
+\subsection{Zastosowanie zasad Zieglera-Nicholsa.}\label{sec:zad3}
+Doświadczalnie znalezienie współczynnika wzmocnienia dla którego układ traci stabilność.
+Ustalenie Okresu oscylacji oraz wzmocnienia krytycznego.
+Określić wartości parametrów regulatora PID.\\
+
+\noindent a. Doświadczalnie znaleźć współczynnik wzmocnienia, dla którego układ traci stabilność. \\
+
+\noindent $p = 2$ \\
+
+\noindent b. Ustalić okres oscylacji i wzmocnienie krytyczne. \\
+
+\noindent $k_{p} = 2$, 
+$k_{u} = 6$ \\
+
+\noindent c. Według odpowiednich rekomendacji określić wartości parametrów regulatora PID.\\
+
+\noindent $P = k_{p} * 0.6 = 1,2$ \\
+$I = k_{u}  * 0.5 = 3$ \\
+$D = k_{u} * 0.125 = 0.75$
+
+\section{Wnioski}
+Podczas wykonywania ćwiczenia zauważyłem pewne właściwości parametrów oraz w jaki sposób ich zmiana wpływa na regulator PID. Sterowanie proporcjonalne (k) ma wpływ na czas narastania (zmniejsza ten czas) oraz błąd sterowania (zmniejsza go), ale nie daje dobrego efektu. 
+Natomiast sterowanie całkujące (Ti) ma wpływ na eliminowanie błędu sterowania w stanie ustalonym, jednak pogarsza odpowiedź w czasie narastania i przed czasem ustalonym, co niewątliwie jest wadą.
+Sterowanie różniczujące (Td) zwiększa stabilność układu poprzez zmniejszenie przeregulowania i poprawe odpowiedzi między stanami. Odpowiedni odbór tych paramatrów jest bardzo ważny dla układu regulacji, gdyż nieodpowiednie ich dobranie może powodować nieprawidłowe działanie lub w szczególych przypadkach destabilizację układu.
+
+\end{document}
