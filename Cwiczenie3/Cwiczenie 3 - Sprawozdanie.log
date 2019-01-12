@@ -1,15 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.18)  1 DEC 2018 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  12 JAN 2019 00:08
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"Cwiczenie 3 - Sprawozdanie.tex"
-(./Cwiczenie 3 - Sprawozdanie.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+**"./Cwiczenie 3 - Sprawozdanie.tex"
+("Cwiczenie 3 - Sprawozdanie.tex"
+LaTeX2e <2018-12-01>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -23,25 +20,25 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/polski.sty
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Inputenc package detected. Catcodes not changed.
    Switching to Polish text encoding and Polish maths fonts.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ot4enc.def
-File: ot4enc.def 2017/04/05 v2.0i Standard LaTeX file
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ot4enc.def"
+File: ot4enc.def 2018/08/11 v2.0j Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
 )
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 360.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/ot4cmr.fd
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -76,33 +73,33 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
 \lst@mode=\count88
-\lst@gtempboxa=\box26
+\lst@gtempboxa=\box27
 \lst@token=\toks17
 \lst@length=\count89
 \lst@currlwidth=\dimen105
@@ -114,53 +111,38 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
-\lst@framebox=\box27
+\lst@framebox=\box28
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-(./Cwiczenie 3 - Sprawozdanie.aux
-
-LaTeX Warning: Label `fig:Rysunek' multiply defined.
-
-
-LaTeX Warning: Label `fig:Rysunek' multiply defined.
-
-
-LaTeX Warning: Label `fig:Rysunek' multiply defined.
-
-
-LaTeX Warning: Label `fig:Rysunek' multiply defined.
-
-
-LaTeX Warning: Label `fig:Rysunek' multiply defined.
-
+("Cwiczenie 3 - Sprawozdanie.aux"
 
 LaTeX Warning: Label `fig:Rysunek' multiply defined.
 
@@ -232,11 +214,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
- (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen109
-\scratchbox=\box28
+\scratchbox=\box29
 \nofMPsegments=\count97
 \nofMParguments=\count98
 \everyMPshowfont=\toks18
@@ -245,45 +227,40 @@ LaTeX Font Info:    ... okay on input line 47.
 \MPnumerator=\count100
 \makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+))))
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -296,27 +273,23 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 \c@lstlisting=\count102
 LaTeX Font Info:    Try loading font information for OML+plm on input line 48.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omlplm.fd
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+plsy on input line 48.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omsplsy.fd
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+plex on input line 48.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omxplex.fd
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -329,281 +302,201 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <9> on input line 69.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 69.
- [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<CW3-schemat-2.PNG, id=13, 532.99126pt x 264.99pt>
-File: CW3-schemat-2.PNG Graphic file (type png)
-<use CW3-schemat-2.PNG>
-Package pdftex.def Info: CW3-schemat-2.PNG  used on input line 92.
-(pdftex.def)             Requested size: 341.43306pt x 169.75475pt.
+[1
+
+{C:/Users/krzys/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<dwu_schemat.png, id=12, 590.205pt x 125.71968pt>
+File: dwu_schemat.png Graphic file (type png)
+<use dwu_schemat.png>
+Package pdftex.def Info: dwu_schemat.png  used on input line 92.
+(pdftex.def)             Requested size: 341.43306pt x 72.72946pt.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 101.
 LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 101
 .
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/ot4cmtt.fd
+(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-<CW3-dwupolozeniowy-e-a0.png, id=14, 1446.15282pt x 733.23938pt>
-File: CW3-dwupolozeniowy-e-a0.png Graphic file (type png)
-<use CW3-dwupolozeniowy-e-a0.png>
-Package pdftex.def Info: CW3-dwupolozeniowy-e-a0.png  used on input line 129.
-(pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
-<CW3-dwupolozeniowy-u-a0.png, id=15, 1439.3775pt x 282.30469pt>
-File: CW3-dwupolozeniowy-u-a0.png Graphic file (type png)
-<use CW3-dwupolozeniowy-u-a0.png>
-Package pdftex.def Info: CW3-dwupolozeniowy-u-a0.png  used on input line 130.
-(pdftex.def)             Requested size: 341.43306pt x 66.9662pt.
+<dwu_bez_his_e.png, id=14, 1439.3775pt x 585.18625pt>
+File: dwu_bez_his_e.png Graphic file (type png)
+<use dwu_bez_his_e.png>
+Package pdftex.def Info: dwu_bez_his_e.png  used on input line 120.
+(pdftex.def)             Requested size: 341.43306pt x 138.81352pt.
+<dwu_bez_his_u.png, id=15, 1410.26875pt x 565.11125pt>
+File: dwu_bez_his_u.png Graphic file (type png)
+<use dwu_bez_his_u.png>
+Package pdftex.def Info: dwu_bez_his_u.png  used on input line 121.
+(pdftex.def)             Requested size: 341.43306pt x 136.8108pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 131.
+(Font)              <10> on input line 122.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./CW3-schemat-2.PNG>]
-<CW3-histereza-dwupoziomowa.png, id=24, 1446.15282pt x 733.23938pt>
+[2 <./dwu_schemat.png>]
+<CW3-histereza-dwupoziomowa.png, id=25, 1446.15282pt x 733.23938pt>
 File: CW3-histereza-dwupoziomowa.png Graphic file (type png)
 <use CW3-histereza-dwupoziomowa.png>
-Package pdftex.def Info: CW3-histereza-dwupoziomowa.png  used on input line 144
+Package pdftex.def Info: CW3-histereza-dwupoziomowa.png  used on input line 135
 .
 (pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
- [3 <./CW3-dwupolozeniowy-e-a0.png (PNG copy)> <./CW3-dwupolozeniowy-u-a0.png (
-PNG copy)> <./CW3-histereza-dwupoziomowa.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
+ [3 <./dwu_bez_his_e.png (PNG copy)> <./dwu_bez_his_u.png (PNG copy)> <./CW3-hi
+stereza-dwupoziomowa.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 149.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 159.
-
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 159.
-<CW3-dwupolozeniowy-e-a05.png, id=29, 1446.15282pt x 733.23938pt>
-File: CW3-dwupolozeniowy-e-a05.png Graphic file (type png)
-<use CW3-dwupolozeniowy-e-a05.png>
-Package pdftex.def Info: CW3-dwupolozeniowy-e-a05.png  used on input line 189.
-(pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
-<CW3-dwupolozeniowy-u-a05.png, id=30, 1439.3775pt x 280.04625pt>
-File: CW3-dwupolozeniowy-u-a05.png Graphic file (type png)
-<use CW3-dwupolozeniowy-u-a05.png>
-Package pdftex.def Info: CW3-dwupolozeniowy-u-a05.png  used on input line 190.
-(pdftex.def)             Requested size: 341.43306pt x 66.43048pt.
-<CW3-dwupolozeniowy-e.png, id=31, 1446.15282pt x 715.17188pt>
-File: CW3-dwupolozeniowy-e.png Graphic file (type png)
-<use CW3-dwupolozeniowy-e.png>
-Package pdftex.def Info: CW3-dwupolozeniowy-e.png  used on input line 200.
-(pdftex.def)             Requested size: 341.43306pt x 168.85112pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./CW3-dwupolozeniowy-e-a05.png (PNG copy)> <./CW3-dwupolozeniowy-u-a05.png 
-(PNG copy)>]
-<CW3-schemat-3.png, id=37, 515.9275pt x 240.9pt>
-File: CW3-schemat-3.png Graphic file (type png)
-<use CW3-schemat-3.png>
-Package pdftex.def Info: CW3-schemat-3.png  used on input line 214.
-(pdftex.def)             Requested size: 341.43306pt x 159.42822pt.
- [5 <./CW3-dwupolozeniowy-e.png (PNG copy)> <./CW3-schemat-3.png>]
-<CW3-trojpolozeniowy-e-n015-a0.png, id=41, 1446.15282pt x 733.23938pt>
-File: CW3-trojpolozeniowy-e-n015-a0.png Graphic file (type png)
-<use CW3-trojpolozeniowy-e-n015-a0.png>
-Package pdftex.def Info: CW3-trojpolozeniowy-e-n015-a0.png  used on input line 
-254.
-(pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
-<CW3-trojpolozeniowy-u-n015-a0.png, id=42, 1439.3775pt x 282.30469pt>
-File: CW3-trojpolozeniowy-u-n015-a0.png Graphic file (type png)
-<use CW3-trojpolozeniowy-u-n015-a0.png>
-Package pdftex.def Info: CW3-trojpolozeniowy-u-n015-a0.png  used on input line 
-255.
-(pdftex.def)             Requested size: 341.43306pt x 66.9662pt.
-
-[6 <./CW3-trojpolozeniowy-e-n015-a0.png (PNG copy)> <./CW3-trojpolozeniowy-u-n0
-15-a0.png (PNG copy)>]
-<CW3-histereza-trojpoziomowa.png, id=46, 1446.15282pt x 733.23938pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 149.
+<dwu_z_his_e.png, id=30, 1222.5675pt x 587.19376pt>
+File: dwu_z_his_e.png Graphic file (type png)
+<use dwu_z_his_e.png>
+Package pdftex.def Info: dwu_z_his_e.png  used on input line 173.
+(pdftex.def)             Requested size: 341.43306pt x 163.98305pt.
+<dwu_z_his_u.png, id=31, 1267.73625pt x 630.355pt>
+File: dwu_z_his_u.png Graphic file (type png)
+<use dwu_z_his_u.png>
+Package pdftex.def Info: dwu_z_his_u.png  used on input line 174.
+(pdftex.def)             Requested size: 341.43306pt x 169.76529pt.
+ [4 <./dwu_z_his_e.png (PNG copy)> <./dwu_z_his_u.png (PNG copy)>]
+<dwu_z_his_e_2.png, id=36, 1400.23125pt x 781.92125pt>
+File: dwu_z_his_e_2.png Graphic file (type png)
+<use dwu_z_his_e_2.png>
+Package pdftex.def Info: dwu_z_his_e_2.png  used on input line 184.
+(pdftex.def)             Requested size: 341.43306pt x 190.65965pt.
+ [5 <./dwu_z_his_e_2.png (PNG copy)>]
+<troj_schemat.png, id=40, 902.6222pt x 271.76532pt>
+File: troj_schemat.png Graphic file (type png)
+<use troj_schemat.png>
+Package pdftex.def Info: troj_schemat.png  used on input line 198.
+(pdftex.def)             Requested size: 341.43306pt x 102.79915pt.
+ [6 <./troj_schemat.png>]
+<troj_bez_his.png, id=45, 875.52094pt x 491.58656pt>
+File: troj_bez_his.png Graphic file (type png)
+<use troj_bez_his.png>
+Package pdftex.def Info: troj_bez_his.png  used on input line 230.
+(pdftex.def)             Requested size: 341.43306pt x 191.71048pt.
+ [7 <./troj_bez_his.png (PNG copy)>]
+<CW3-histereza-trojpoziomowa.png, id=50, 1446.15282pt x 733.23938pt>
 File: CW3-histereza-trojpoziomowa.png Graphic file (type png)
 <use CW3-histereza-trojpoziomowa.png>
-Package pdftex.def Info: CW3-histereza-trojpoziomowa.png  used on input line 27
-0.
+Package pdftex.def Info: CW3-histereza-trojpoziomowa.png  used on input line 24
+5.
 (pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
- [7 <./CW3-histereza-trojpoziomowa.png>]
-<CW3-trojpolozeniowy-e-n015-a005.png, id=52, 1446.15282pt x 733.23938pt>
-File: CW3-trojpolozeniowy-e-n015-a005.png Graphic file (type png)
-<use CW3-trojpolozeniowy-e-n015-a005.png>
-Package pdftex.def Info: CW3-trojpolozeniowy-e-n015-a005.png  used on input lin
-e 313.
-(pdftex.def)             Requested size: 341.43306pt x 173.11684pt.
-<CW3-trojpolozeniowy-u-n015-a005.png, id=53, 1439.3775pt x 280.04625pt>
-File: CW3-trojpolozeniowy-u-n015-a005.png Graphic file (type png)
-<use CW3-trojpolozeniowy-u-n015-a005.png>
-Package pdftex.def Info: CW3-trojpolozeniowy-u-n015-a005.png  used on input lin
-e 314.
-(pdftex.def)             Requested size: 341.43306pt x 66.43048pt.
-<CW3-trojpolozeniowy-e-n015.png, id=54, 1446.15282pt x 715.17188pt>
-File: CW3-trojpolozeniowy-e-n015.png Graphic file (type png)
-<use CW3-trojpolozeniowy-e-n015.png>
-Package pdftex.def Info: CW3-trojpolozeniowy-e-n015.png  used on input line 324
-.
-(pdftex.def)             Requested size: 341.43306pt x 168.85112pt.
- [8 <./CW3-trojpolozeniowy-e-n015-a005.png (PNG copy)> <./CW3-trojpolozeniowy-u
--n015-a005.png (PNG copy)> <./CW3-trojpolozeniowy-e-n015.png (PNG copy)>]
-<CW3-schemat-2k.png, id=58, 549.05125pt x 382.42876pt>
-File: CW3-schemat-2k.png Graphic file (type png)
-<use CW3-schemat-2k.png>
-Package pdftex.def Info: CW3-schemat-2k.png  used on input line 349.
-(pdftex.def)             Requested size: 341.43306pt x 237.82112pt.
-<CW3-schemat-3k.PNG, id=59, 803.0pt x 530.98375pt>
-File: CW3-schemat-3k.PNG Graphic file (type png)
-<use CW3-schemat-3k.PNG>
-Package pdftex.def Info: CW3-schemat-3k.PNG  used on input line 356.
-(pdftex.def)             Requested size: 341.43306pt x 225.77448pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 266.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 266.
+<troj_z_his.png, id=51, 1058.45438pt x 513.41812pt>
+File: troj_z_his.png Graphic file (type png)
+<use troj_z_his.png>
+Package pdftex.def Info: troj_z_his.png  used on input line 287.
+(pdftex.def)             Requested size: 341.43306pt x 165.61328pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./CW3-schemat-2k.png>] [10 <./CW3-schemat-3k.PNG>]
-<CW3-korekcja-dwupolozeniowy-e_Tk.png, id=67, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-dwupolozeniowy-e_Tk.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowy-e_Tk.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowy-e_Tk.png  used on input li
-ne 416.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-dwupolozeniowy-e_k.png, id=68, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-dwupolozeniowy-e_k.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowy-e_k.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowy-e_k.png  used on input lin
-e 425.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-dwupolozeniowy-e_C_k1T1.png, id=69, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-dwupolozeniowy-e_C_k1T1.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowy-e_C_k1T1.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowy-e_C_k1T1.png  used on inpu
-t line 432.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./CW3-korekcja-dwupolozeniowy-e_Tk.png (PNG copy)> <./CW3-korekcja-dwupolo
-zeniowy-e_k.png (PNG copy)>]
-<CW3-korekcja-dwupolozeniowy-e_a.png, id=73, 422.32782pt x 250.68657pt>
-File: CW3-korekcja-dwupolozeniowy-e_a.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowy-e_a.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowy-e_a.png  used on input lin
-e 443.
-(pdftex.def)             Requested size: 341.43306pt x 202.67249pt.
-<CW3-korekcja-dwupolozeniowy-u_a.png, id=74, 422.32782pt x 96.36pt>
-File: CW3-korekcja-dwupolozeniowy-u_a.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowy-u_a.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowy-u_a.png  used on input lin
-e 444.
-(pdftex.def)             Requested size: 341.43306pt x 77.90411pt.
- [12 <./CW3-korekcja-dwupolozeniowy-e_C_k1T1.png (PNG copy)> <./CW3-korekcja-dw
-upolozeniowy-e_a.png (PNG copy)> <./CW3-korekcja-dwupolozeniowy-u_a.png (PNG co
-py)>]
-<CW3-korekcja-dwupolozeniowyBH-e_Tk.png, id=78, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-dwupolozeniowyBH-e_Tk.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowyBH-e_Tk.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowyBH-e_Tk.png  used on input 
-line 455.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-dwupolozeniowyBH-e_k.png, id=79, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-dwupolozeniowyBH-e_k.png Graphic file (type png)
-<use CW3-korekcja-dwupolozeniowyBH-e_k.png>
-Package pdftex.def Info: CW3-korekcja-dwupolozeniowyBH-e_k.png  used on input l
-ine 462.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
- [13 <./CW3-korekcja-dwupolozeniowyBH-e_Tk.png (PNG copy)> <./CW3-korekcja-dwup
-olozeniowyBH-e_k.png (PNG copy)>]
-<CW3-korekcja-trojpolozeniowy-e_Tk.png, id=84, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowy-e_Tk.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowy-e_Tk.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowy-e_Tk.png  used on input l
-ine 476.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-trojpolozeniowy-e_k.png, id=85, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowy-e_k.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowy-e_k.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowy-e_k.png  used on input li
-ne 483.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-trojpolozeniowy-e_C.png, id=86, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowy-e_C.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowy-e_C.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowy-e_C.png  used on input li
-ne 490.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./CW3-korekcja-trojpolozeniowy-e_Tk.png (PNG copy)> <./CW3-korekcja-trojpo
-lozeniowy-e_k.png (PNG copy)>]
-<CW3-korekcja-trojpolozeniowyBH-e_a.png, id=90, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowyBH-e_a.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowyBH-e_a.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowyBH-e_a.png  used on input 
-line 504.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
- [15 <./CW3-korekcja-trojpolozeniowy-e_C.png (PNG copy)> <./CW3-korekcja-trojpo
-lozeniowyBH-e_a.png (PNG copy)>]
-<CW3-korekcja-trojpolozeniowyBH-e_Tk.png, id=94, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowyBH-e_Tk.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowyBH-e_Tk.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowyBH-e_Tk.png  used on input
- line 513.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
-<CW3-korekcja-trojpolozeniowyBH-e_k.png, id=95, 422.32782pt x 316.18124pt>
-File: CW3-korekcja-trojpolozeniowyBH-e_k.png Graphic file (type png)
-<use CW3-korekcja-trojpolozeniowyBH-e_k.png>
-Package pdftex.def Info: CW3-korekcja-trojpolozeniowyBH-e_k.png  used on input 
-line 520.
-(pdftex.def)             Requested size: 341.43306pt x 255.62294pt.
- [16 <./CW3-korekcja-trojpolozeniowyBH-e_Tk.png (PNG copy)> <./CW3-korekcja-tro
-jpolozeniowyBH-e_k.png (PNG copy)>] [17] (./Cwiczenie 3 - Sprawozdanie.aux)
+[8 <./CW3-histereza-trojpoziomowa.png>]
+<dwu_kor_schemat.png, id=56, 750.55406pt x 155.83218pt>
+File: dwu_kor_schemat.png Graphic file (type png)
+<use dwu_kor_schemat.png>
+Package pdftex.def Info: dwu_kor_schemat.png  used on input line 312.
+(pdftex.def)             Requested size: 341.43306pt x 70.88948pt.
+<troj_kor_schemat.png, id=57, 1064.47687pt x 281.55188pt>
+File: troj_kor_schemat.png Graphic file (type png)
+<use troj_kor_schemat.png>
+Package pdftex.def Info: troj_kor_schemat.png  used on input line 319.
+(pdftex.def)             Requested size: 341.43306pt x 90.30464pt.
+ [9 <./troj_z_his.png (PNG copy)> <./dwu_kor_schemat.png> <./troj_kor_schemat.p
+ng>] [10]
+<dwu_kor_tk.png, id=67, 1178.90437pt x 560.0925pt>
+File: dwu_kor_tk.png Graphic file (type png)
+<use dwu_kor_tk.png>
+Package pdftex.def Info: dwu_kor_tk.png  used on input line 370.
+(pdftex.def)             Requested size: 341.43306pt x 162.209pt.
+<dwu_kor_k.png, id=68, 1201.48875pt x 659.46375pt>
+File: dwu_kor_k.png Graphic file (type png)
+<use dwu_kor_k.png>
+Package pdftex.def Info: dwu_kor_k.png  used on input line 379.
+(pdftex.def)             Requested size: 341.43306pt x 187.40573pt.
+ [11 <./dwu_kor_tk.png (PNG copy)> <./dwu_kor_k.png (PNG copy)>]
+<dwu_kor_tk_bez.png, id=72, 1196.97188pt x 572.89032pt>
+File: dwu_kor_tk_bez.png Graphic file (type png)
+<use dwu_kor_tk_bez.png>
+Package pdftex.def Info: dwu_kor_tk_bez.png  used on input line 389.
+(pdftex.def)             Requested size: 341.43306pt x 163.4153pt.
+<dwu_kor_k_bez.png, id=73, 1224.07312pt x 662.475pt>
+File: dwu_kor_k_bez.png Graphic file (type png)
+<use dwu_kor_k_bez.png>
+Package pdftex.def Info: dwu_kor_k_bez.png  used on input line 396.
+(pdftex.def)             Requested size: 341.43306pt x 184.78413pt.
+ [12 <./dwu_kor_tk_bez.png (PNG copy)> <./dwu_kor_k_bez.png (PNG copy)>] [13]
+<troj_kor_tk.png, id=81, 1288.815pt x 651.18282pt>
+File: troj_kor_tk.png Graphic file (type png)
+<use troj_kor_tk.png>
+Package pdftex.def Info: troj_kor_tk.png  used on input line 470.
+(pdftex.def)             Requested size: 341.43306pt x 172.51294pt.
+<troj_kor_k.png, id=82, 1097.60063pt x 522.45187pt>
+File: troj_kor_k.png Graphic file (type png)
+<use troj_kor_k.png>
+Package pdftex.def Info: troj_kor_k.png  used on input line 477.
+(pdftex.def)             Requested size: 341.43306pt x 162.51643pt.
+ [14 <./troj_kor_tk.png (PNG copy)> <./troj_kor_k.png (PNG copy)>]
+<troj_kor_tk_bez.png, id=86, 969.6225pt x 631.60968pt>
+File: troj_kor_tk_bez.png Graphic file (type png)
+<use troj_kor_tk_bez.png>
+Package pdftex.def Info: troj_kor_tk_bez.png  used on input line 491.
+(pdftex.def)             Requested size: 341.43306pt x 222.40633pt.
+<troj_kor_k_bez.png, id=87, 1195.46625pt x 706.89093pt>
+File: troj_kor_k_bez.png Graphic file (type png)
+<use troj_kor_k_bez.png>
+Package pdftex.def Info: troj_kor_k_bez.png  used on input line 498.
+(pdftex.def)             Requested size: 341.43306pt x 201.88667pt.
+ [15 <./troj_kor_tk_bez.png (PNG copy)> <./troj_kor_k_bez.png (PNG copy)>] [16]
+ ("Cwiczenie 3 - Sprawozdanie.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4328 strings out of 492649
- 62337 string characters out of 6129621
- 314632 words of memory out of 5000000
- 8114 multiletter control sequences out of 15000+600000
- 14734 words of font info for 42 fonts, out of 8000000 for 9000
+ 4281 strings out of 492946
+ 59187 string characters out of 3135527
+ 519684 words of memory out of 3000000
+ 8092 multiletter control sequences out of 15000+200000
+ 14734 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,40p,459b,1839s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/local/t
-exlive/2018/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2018/tex
-mf-dist/fonts/enc/dvips/pl/pltt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/e
-nc/dvips/pl/plrm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/pl/pls
-c.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/pl/plmi6.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/pl/plmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/pl/plmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plr
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plr12.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plr17.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/pl/plr5.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/pl/plr7.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/pl/plr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/pl/plsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/pls
-y7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/pltt8.pfb>
-Output written on "Cwiczenie 3 - Sprawozdanie.pdf" (17 pages, 380038 bytes).
+ 41i,7n,40p,391b,1839s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Us
+ers/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/krzy
+s/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/pltt.enc}{C:/Users/krzys/AppDat
+a/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Users/krzys/AppData/Roamin
+g/MiKTeX/2.9/fonts/enc/dvips/pl/plsc.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/pl/plbx10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
+ic/pl/plbx12.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
+pl/plmi10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/
+plmi6.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi
+7.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi9.pf
+b><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C
+:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Us
+ers/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/
+krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr5.pfb><C:/Users/krzys
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/krzys/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr9.pfb><C:/Users/krzys/AppData/R
+oaming/MiKTeX/2.9/fonts/type1/public/pl/plsy7.pfb><C:/Users/krzys/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/pl/pltt8.pfb>
+Output written on "Cwiczenie 3 - Sprawozdanie.pdf" (16 pages, 1011890 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
