@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  12 JAN 2019 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  13 JAN 2019 02:13
 entering extended mode
 **"./Cwiczenie 1 - Sprawozdanie.tex"
 ("Cwiczenie 1 - Sprawozdanie.tex"
@@ -216,20 +216,20 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 ("Cwiczenie 1 - Sprawozdanie.aux")
 \openout1 = `"Cwiczenie 1 - Sprawozdanie.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 (C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -292,346 +292,181 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count114
-LaTeX Font Info:    Try loading font information for OML+plm on input line 47.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 46.
 
 (C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 46.
 
 
 (C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 47.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 46.
 
 
 (C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 47.
+(Font)              <12> on input line 46.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 47.
+(Font)              <8> on input line 46.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 47.
-LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+(Font)              <6> on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 60.
+(Font)              <10> on input line 59.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 60.
+(Font)              <7> on input line 59.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 60.
+(Font)              <5> on input line 59.
  [1
 
 {C:/Users/krzys/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 153--156
+Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 361--368
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
 
  []
 
 [4]
-<CW1-inercyjny1-impuls.png, id=28, 422.32782pt x 316.18124pt>
-File: CW1-inercyjny1-impuls.png Graphic file (type png)
-<use CW1-inercyjny1-impuls.png>
-Package pdftex.def Info: CW1-inercyjny1-impuls.png  used on input line 409.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-<CW1-inercyjny1-skok.png, id=29, 422.32782pt x 316.18124pt>
-File: CW1-inercyjny1-skok.png Graphic file (type png)
-<use CW1-inercyjny1-skok.png>
-Package pdftex.def Info: CW1-inercyjny1-skok.png  used on input line 410.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
+<prop_step.png, id=27, 770.88pt x 517.18219pt>
+File: prop_step.png Graphic file (type png)
+<use prop_step.png>
+Package pdftex.def Info: prop_step.png  used on input line 409.
+(pdftex.def)             Requested size: 426.79134pt x 286.32927pt.
+<prop_impulse.png, id=28, 738.50906pt x 465.23813pt>
+File: prop_impulse.png Graphic file (type png)
+<use prop_impulse.png>
+Package pdftex.def Info: prop_impulse.png  used on input line 410.
+(pdftex.def)             Requested size: 426.79134pt x 268.86574pt.
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 408--411
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 409--411
+ [] 
  []
 
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 408--411
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 409--411
+ [] 
  []
 
-[5 <./CW1-inercyjny1-impuls.png (PNG copy)>] [6 <./CW1-inercyjny1-skok.png (PNG
- copy)>]
-<CW1-inercyjny2-impuls.png, id=37, 422.32782pt x 316.18124pt>
-File: CW1-inercyjny2-impuls.png Graphic file (type png)
-<use CW1-inercyjny2-impuls.png>
-Package pdftex.def Info: CW1-inercyjny2-impuls.png  used on input line 413.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-<CW1-inercyjny2-skok.png, id=38, 422.32782pt x 316.18124pt>
-File: CW1-inercyjny2-skok.png Graphic file (type png)
-<use CW1-inercyjny2-skok.png>
-Package pdftex.def Info: CW1-inercyjny2-skok.png  used on input line 414.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
+[5 <./prop_step.png (PNG copy)>]
+<cal_step.png, id=33, 632.3625pt x 435.87843pt>
+File: cal_step.png Graphic file (type png)
+<use cal_step.png>
+Package pdftex.def Info: cal_step.png  used on input line 419.
+(pdftex.def)             Requested size: 426.79134pt x 294.18529pt.
+<cal_impulse.png, id=34, 832.61063pt x 438.13687pt>
+File: cal_impulse.png Graphic file (type png)
+<use cal_impulse.png>
+Package pdftex.def Info: cal_impulse.png  used on input line 420.
+(pdftex.def)             Requested size: 426.79134pt x 224.59004pt.
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 412--415
-[] 
- []
-
-
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 412--415
-[] 
- []
-
-[7 <./CW1-inercyjny2-impuls.png (PNG copy)> <./CW1-inercyjny2-skok.png (PNG cop
-y)>]
-<CW1-calkujacy-impuls.png, id=43, 422.32782pt x 316.18124pt>
-File: CW1-calkujacy-impuls.png Graphic file (type png)
-<use CW1-calkujacy-impuls.png>
-Package pdftex.def Info: CW1-calkujacy-impuls.png  used on input line 417.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-<CW1-calkujacy-skok.png, id=44, 422.32782pt x 316.18124pt>
-File: CW1-calkujacy-skok.png Graphic file (type png)
-<use CW1-calkujacy-skok.png>
-Package pdftex.def Info: CW1-calkujacy-skok.png  used on input line 418.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 416--419
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 419--421
+ [] 
  []
 
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 416--419
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 419--421
+ [] 
  []
 
-[8 <./CW1-calkujacy-impuls.png (PNG copy)> <./CW1-calkujacy-skok.png (PNG copy)
->]
-<CW1-rozniczkujacy-impuls.png, id=48, 422.32782pt x 316.18124pt>
-File: CW1-rozniczkujacy-impuls.png Graphic file (type png)
-<use CW1-rozniczkujacy-impuls.png>
-Package pdftex.def Info: CW1-rozniczkujacy-impuls.png  used on input line 421.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-<CW1-rozniczkujacy-skok.png, id=49, 422.32782pt x 316.18124pt>
-File: CW1-rozniczkujacy-skok.png Graphic file (type png)
-<use CW1-rozniczkujacy-skok.png>
-Package pdftex.def Info: CW1-rozniczkujacy-skok.png  used on input line 422.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
+[6 <./prop_impulse.png (PNG copy)> <./cal_step.png (PNG copy)>]
+<iner1_step.png, id=38, 718.18312pt x 478.03593pt>
+File: iner1_step.png Graphic file (type png)
+<use iner1_step.png>
+Package pdftex.def Info: iner1_step.png  used on input line 428.
+(pdftex.def)             Requested size: 426.79134pt x 284.08842pt.
+<iner1_impulse.png, id=39, 746.79pt x 536.0025pt>
+File: iner1_impulse.png Graphic file (type png)
+<use iner1_impulse.png>
+Package pdftex.def Info: iner1_impulse.png  used on input line 429.
+(pdftex.def)             Requested size: 426.79134pt x 306.32611pt.
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 420--423
-[] 
- []
-
-
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 420--423
-[] 
- []
-
-[9 <./CW1-rozniczkujacy-impuls.png (PNG copy)> <./CW1-rozniczkujacy-skok.png (P
-NG copy)>]
-<CW1-proporcjonalny-impuls.png, id=53, 422.32782pt x 316.18124pt>
-File: CW1-proporcjonalny-impuls.png Graphic file (type png)
-<use CW1-proporcjonalny-impuls.png>
-Package pdftex.def Info: CW1-proporcjonalny-impuls.png  used on input line 425.
-
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-<CW1-proporcjonalny-skok.png, id=54, 422.32782pt x 316.18124pt>
-File: CW1-proporcjonalny-skok.png Graphic file (type png)
-<use CW1-proporcjonalny-skok.png>
-Package pdftex.def Info: CW1-proporcjonalny-skok.png  used on input line 426.
-(pdftex.def)             Requested size: 380.09152pt x 284.56049pt.
-
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 424--427
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 428--430
+ [] 
  []
 
 
-Overfull \hbox (25.18605pt too wide) in paragraph at lines 424--427
-[] 
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 428--430
+ [] 
+ []
+
+[7 <./cal_impulse.png (PNG copy)> <./iner1_step.png (PNG copy)>]
+<osc_step.png, id=44, 776.9025pt x 520.19344pt>
+File: osc_step.png Graphic file (type png)
+<use osc_step.png>
+Package pdftex.def Info: osc_step.png  used on input line 440.
+(pdftex.def)             Requested size: 426.79134pt x 285.7739pt.
+<osc_impulse.png, id=45, 833.36343pt x 694.84593pt>
+File: osc_impulse.png Graphic file (type png)
+<use osc_impulse.png>
+Package pdftex.def Info: osc_impulse.png  used on input line 441.
+(pdftex.def)             Requested size: 426.79134pt x 355.85107pt.
+
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 440--442
+ [] 
  []
 
 
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 432.
-
-[10 <./CW1-proporcjonalny-impuls.png (PNG copy)> <./CW1-proporcjonalny-skok.png
- (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
-
+Overfull \hbox (49.88586pt too wide) in paragraph at lines 440--442
+ [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-
- []
-
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 455
-.
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\ot4cmtt.fd
-File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 459.
-
-[11]
-<CW1-inercyjny1-mimpuls.png, id=63, 422.7795pt x 317.2653pt>
-File: CW1-inercyjny1-mimpuls.png Graphic file (type png)
-<use CW1-inercyjny1-mimpuls.png>
-Package pdftex.def Info: CW1-inercyjny1-mimpuls.png  used on input line 489.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-<CW1-inercyjny1-mskok.png, id=64, 422.7795pt x 317.2653pt>
-File: CW1-inercyjny1-mskok.png Graphic file (type png)
-<use CW1-inercyjny1-mskok.png>
-Package pdftex.def Info: CW1-inercyjny1-mskok.png  used on input line 490.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 488--491
-[] 
- []
-
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 488--491
-[] 
- []
-
-[12 <./CW1-inercyjny1-mimpuls.png> <./CW1-inercyjny1-mskok.png>]
-<CW1-inercyjny2-mimpuls.png, id=68, 422.7795pt x 317.2653pt>
-File: CW1-inercyjny2-mimpuls.png Graphic file (type png)
-<use CW1-inercyjny2-mimpuls.png>
-Package pdftex.def Info: CW1-inercyjny2-mimpuls.png  used on input line 493.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-<CW1-inercyjny2-mskok.png, id=69, 422.7795pt x 317.2653pt>
-File: CW1-inercyjny2-mskok.png Graphic file (type png)
-<use CW1-inercyjny2-mskok.png>
-Package pdftex.def Info: CW1-inercyjny2-mskok.png  used on input line 494.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 492--495
-[] 
- []
-
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 492--495
-[] 
- []
-
-[13 <./CW1-inercyjny2-mimpuls.png> <./CW1-inercyjny2-mskok.png>]
-<CW1-calkujacy-mimpuls.png, id=74, 422.7795pt x 317.2653pt>
-File: CW1-calkujacy-mimpuls.png Graphic file (type png)
-<use CW1-calkujacy-mimpuls.png>
-Package pdftex.def Info: CW1-calkujacy-mimpuls.png  used on input line 497.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-<CW1-calkujacy-mskok.png, id=75, 422.7795pt x 317.2653pt>
-File: CW1-calkujacy-mskok.png Graphic file (type png)
-<use CW1-calkujacy-mskok.png>
-Package pdftex.def Info: CW1-calkujacy-mskok.png  used on input line 498.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 496--499
-[] 
- []
-
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 496--499
-[] 
- []
-
-[14 <./CW1-calkujacy-mimpuls.png> <./CW1-calkujacy-mskok.png>]
-<CW1-rozniczkujacy-mimpuls.png, id=79, 422.7795pt x 317.2653pt>
-File: CW1-rozniczkujacy-mimpuls.png Graphic file (type png)
-<use CW1-rozniczkujacy-mimpuls.png>
-Package pdftex.def Info: CW1-rozniczkujacy-mimpuls.png  used on input line 501.
-
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-<CW1-rozniczkujacy-mskok.png, id=80, 422.7795pt x 317.2653pt>
-File: CW1-rozniczkujacy-mskok.png Graphic file (type png)
-<use CW1-rozniczkujacy-mskok.png>
-Package pdftex.def Info: CW1-rozniczkujacy-mskok.png  used on input line 502.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 500--503
-[] 
- []
-
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 500--503
-[] 
- []
-
-[15 <./CW1-rozniczkujacy-mimpuls.png> <./CW1-rozniczkujacy-mskok.png>]
-<CW1-proporcjonalny-mimpuls.png, id=84, 422.7795pt x 317.2653pt>
-File: CW1-proporcjonalny-mimpuls.png Graphic file (type png)
-<use CW1-proporcjonalny-mimpuls.png>
-Package pdftex.def Info: CW1-proporcjonalny-mimpuls.png  used on input line 505
-.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-<CW1-proporcjonalny-mskok.png, id=85, 422.7795pt x 317.2653pt>
-File: CW1-proporcjonalny-mskok.png Graphic file (type png)
-<use CW1-proporcjonalny-mskok.png>
-Package pdftex.def Info: CW1-proporcjonalny-mskok.png  used on input line 506.
-(pdftex.def)             Requested size: 380.49802pt x 285.53613pt.
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 504--507
-[] 
- []
-
-
-Overfull \hbox (25.59254pt too wide) in paragraph at lines 504--507
-[] 
- []
-
-[16 <./CW1-proporcjonalny-mimpuls.png> <./CW1-proporcjonalny-mskok.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
-
- []
-
-[17] ("Cwiczenie 1 - Sprawozdanie.aux") ) 
+[8 <./iner1_impulse.png (PNG copy)> <./osc_step.png (PNG copy)>] [9 <./osc_impu
+lse.png (PNG copy)>] [10] ("Cwiczenie 1 - Sprawozdanie.aux") ) 
 Here is how much of TeX's memory you used:
- 4958 strings out of 492946
- 67268 string characters out of 3135527
- 409880 words of memory out of 3000000
- 8746 multiletter control sequences out of 15000+200000
- 17145 words of font info for 53 fonts, out of 3000000 for 9000
+ 4041 strings out of 492946
+ 56263 string characters out of 3135527
+ 320898 words of memory out of 3000000
+ 7846 multiletter control sequences out of 15000+200000
+ 16353 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,40p,668b,1902s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/krzys/AppData/Roaming/MiKTeX
-/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fon
-ts/enc/dvips/pl/pltt.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/d
-vips/pl/plms.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/
-plsc.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plme.enc
-}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Use
-rs/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plit.enc}<C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/krzys/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/krzys/AppData/Roaming/MiK
-TeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/public/pl/plbxti10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9
-/fonts/type1/public/pl/plmi10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/public/pl/plmi5.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/
-type1/public/pl/plmi7.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type
-1/public/pl/plr10.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
-blic/pl/plr12.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
-/pl/plr17.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/
-plr5.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr7.
-pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr9.pfb><
-C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/
-Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy7.pfb><C:/User
-s/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/pltt8.pfb>
-Output written on "Cwiczenie 1 - Sprawozdanie.pdf" (17 pages, 218692 bytes).
+ 41i,21n,40p,667b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/krzys/A
+ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/krzys/AppData/R
+oaming/MiKTeX/2.9/fonts/enc/dvips/pl/plsc.enc}{C:/Users/krzys/AppData/Roaming/M
+iKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.
+9/fonts/enc/dvips/pl/plme.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/
+enc/dvips/pl/plrm.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvip
+s/pl/plit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx10.p
+fb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb>
+<C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbxti10.pfb><
+C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plex10.pfb><C:/
+Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi10.pfb><C:/Use
+rs/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users/k
+rzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/krzys
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/krzys/App
+Data/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/krzys/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr5.pfb><C:/Users/krzys/AppData/Roam
+ing/MiKTeX/2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/krzys/AppData/Roaming/M
+iKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/krzys/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/pl/plsy7.pfb>
+Output written on "Cwiczenie 1 - Sprawozdanie.pdf" (10 pages, 245537 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

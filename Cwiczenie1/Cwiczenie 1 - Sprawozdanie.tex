@@ -10,8 +10,7 @@
 \addtolength{\textwidth}{2cm}
 \addtolength{\textheight}{3cm}
 
-
-\title{Sprawozdanie ISS\newline\small Ćwiczenie 1: Podstawy tworzenia opisów i modelowania obiektów sterowania}
+\title{Informatyczne Systemy Sterowania \\ \large Ćwiczenie 1: Podstawy tworzenia opisów i modelowania obiektów sterowania}
 
 \author{Krzysztof Przybylski 239266}
 
@@ -403,172 +402,93 @@ Zarówno ręcznie wyliczone opisy przestrzeni stanu jak i te wyliczone przez Mat
 \section{Zadanie 2 \textit{\small Wyznaczanie charakterystyk czasowych}}\label{sec:zad2}
 
 \begin{itemize}
-\item Przy użyciu funkcji impulse(...) i step(...) w programie Matlab
-\begin{itemize}
-\item Inercyjny I rzędu
-\newline \includegraphics[scale=0.9]{CW1-inercyjny1-impuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-inercyjny1-skok.png}\newline Charakterystyka skokowa
-\newpage
-\item Inercyjny II rzędu 
-\newline \includegraphics[scale=0.9]{CW1-inercyjny2-impuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-inercyjny2-skok.png}\newline Charakterystyka skokowa  
-\newpage
-\item Całkujący rzeczywisty 
-\newline \includegraphics[scale=0.9]{CW1-calkujacy-impuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-calkujacy-skok.png}\newline Charakterystyka skokowa  
-\newpage
-\item Różniczkujący rzeczywisty 
-\newline \includegraphics[scale=0.9]{CW1-rozniczkujacy-impuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-rozniczkujacy-skok.png}\newline Charakterystyka skokowa  
-\newpage
-\item Proporcjonalny 
-\newline \includegraphics[scale=0.9]{CW1-proporcjonalny-impuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-proporcjonalny-skok.png}\newline Charakterystyka skokowa
-\end{itemize}
+\item Człon proporcjonalny
 
-\item Przy użyciu własnych funkcji mImpulse(...) i mStep(...)
+	Przyjąłem k = 8
+	\begin{center}
+		\includegraphics[width=15cm]{prop_step.png}
+		\includegraphics[width=15cm]{prop_impulse.png}
+	\end{center}
+	
+	
+\item Człon całkujący
 
-	\begin{eqnarray} 
-		\dot{x}(t=n \Delta t ) = {x_{n+1}-x_{n} \over {\Delta t}}
-	\end{eqnarray}
-	\begin{eqnarray} 
-		x_{n}=x(t=n \Delta t)
-	\end{eqnarray}
-	\begin{eqnarray} 
-		u_{n}=u(t=n \Delta t)
-	\end{eqnarray}
-	\begin{eqnarray} 
-		y_{n}=y(t=n \Delta t)
-	\end{eqnarray}\\
-	Dodatkowo korzystamy z:\\
-	\begin{eqnarray} 
-		\nonumber \dot{x}_{n}=Ax_{n}+Bu_{n}
-		\nonumber y_{n}=Cx_{n}
-	\end{eqnarray}\\
-	Otrzymujemy układ dyskretny:\\
-	\begin{eqnarray} 
-		\nonumber {x}_{n+1}=(Ax_{n}+Bu_{n}) \Delta t +x_{n}
-		\nonumber y_{n}=Cx_{n}
-	\end{eqnarray}\\
-	Taki układ można już zastosować do napisania funkcji:
-\begin{lstlisting}[caption=funkcja mImpulse.m]
-function p=mImpulse(A,B,C,D,dt,n)
-	y = zeros(1,n);
-	x = zeros(size(A),n);
-	x(1,1)=1;
-	t = 0:dt:dt*(n-1);
-	u=1;
-	for i=1:n
-		y(1,i) = C*x(:,i) + D*u;
-		x(:,i+1) = (A*x(:,i)+B*u)*dt + x(:,i);
-		u = 0;
-	end
-	p=plot(t,y(1,:))
-end
-\end{lstlisting}
-Nasz funkcja tworzy wykres charakterystyki impulsowej na podstawie parametrów A,B,C i D będących parametrami rówania stanu (obliczonymi w poprzednim zadaniu) oraz długość kroku i ich ilość. Po pierwszej iteracji u jest zamienione z 1 na 0 tak aby zasymulować impuls.
+	Przyjąłem k = 8
+	
+	\begin{center}
+		\includegraphics[width=15cm]{cal_step.png}
+		\includegraphics[width=15cm]{cal_impulse.png}
+	\end{center}
+	
+\item Człon inercyjny I rzędu
 
-\begin{lstlisting}[caption=funkcja mStep.m]
-function p=mStep(A,B,C,D,dt,n)
-	y = zeros(1,n);
-	x = zeros(size(A),n);
-	t = 0:dt:dt*(n-1);
-	u=1;
-	for i=1:n
-		y(1,i) = C*x(:,i) + D*u;
-		x(:,i+1) = (A*x(:,i)+B*u)*dt + x(:,i);
-	end
-	p=plot(t,y(1,:))
-end
-\end{lstlisting}
-Nasz funkcja tworzy wykres charakterystyki skokowej na podstawie parametrów A,B,C i D będących parametrami rówania stanu (obliczonymi w poprzednim zadaniu) oraz długość kroku i ich ilość. Wartość u jest zawsze równa 1 symulując funkcję jednostkową.
+	Przyjąłem k = 8 oraz T = 6
+	
+	\begin{center}
+		\includegraphics[width=15cm]{iner1_step.png}
+		\includegraphics[width=15cm]{iner1_impulse.png}
+	\end{center}
+	
+\item Człon oscylacyjny
+	 
+	 Przyjąłem:
+	\begin{equation}
+ k = 8, T\textsubscript{n} = 6, \zeta = 2
+	\end{equation}
 
-\newpage 
-\begin{itemize}
-\item Inercyjny I rzędu
-\newline \includegraphics[scale=0.9]{CW1-inercyjny1-mimpuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-inercyjny1-mskok.png}\newline Charakterystyka skokowa
-\newpage  
-\item Inercyjny II rzędu
-\newline \includegraphics[scale=0.9]{CW1-inercyjny2-mimpuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-inercyjny2-mskok.png}\newline Charakterystyka skokowa
-\newpage
-\item Całkujący rzeczywisty
-\newline \includegraphics[scale=0.9]{CW1-calkujacy-mimpuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-calkujacy-mskok.png}\newline Charakterystyka skokowa
-\newpage
-\item Różniczkujący rzeczywisty
-\newline \includegraphics[scale=0.9]{CW1-rozniczkujacy-mimpuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-rozniczkujacy-mskok.png}\newline Charakterystyka skokowa
-\newpage
-\item Proporcjonalny 
-\newline \includegraphics[scale=0.9]{CW1-proporcjonalny-mimpuls.png}\newline Charakterystyka impulsowa
-\newline \includegraphics[scale=0.9]{CW1-proporcjonalny-mskok.png}\newline Charakterystyka skokowa
-  
-\end{itemize}
+	\begin{center}
+		\includegraphics[width=15cm]{osc_step.png}
+		\includegraphics[width=15cm]{osc_impulse.png}
+	\end{center}
 \end{itemize}
 
 \section{Zadanie 3 \textit{\small Wyznaczanie parametrów członów dynamicznych}}\label{sec:zad3}
 
-Przepisane dla inercyjnego:
-	\begin{eqnarray} 
-		g(t)={k \over T} e^{-{t \over T}}
-	\end{eqnarray}\\
+\begin{itemize}
+	\item Człon proporcjonalny
+		
+		Charakterystyka skokowa w dziedzinie czasu opisana jest wzorem:
+		
+		\begin{equation}
+		h(t) = k * 1(t)
+		\end{equation}
+		
+		Na wykresie widać, że niezależnie od czasu wykres przyjmuje wartość 8. Z tego wynika k = 8.
+		
+		Taka sama stała została wykorzystana do wyrysowania wykresów.
+		
+	\item Człon całkujący
 	
-Aby odczytać wartość k i T postępujemy w następujący sposób:
-Wyliczamy dla punktu t=0:
-
-	\begin{eqnarray} 
-		g(0)={k \over T}
-	\end{eqnarray}\\
-	Liczymy pochodną:
-	\begin{eqnarray} 
-		\dot{g}(t)=-{k \over T^{2}} e^{-{t \over T}}
-	\end{eqnarray}\\
-	Obliczamy wartość pochodnej w punkcjie t=0
-	\begin{eqnarray} 
-		\dot{g}(0)=-{k \over T^{2}}=-{1 \over T^{2}}g(0)
-	\end{eqnarray}\\
-Przedstawiamy pochodną dla t=0 jako współczynnik kierunkowy stycznej (s(t)). Załóżmy, że dla t’
-dana styczna osiąga wartość 0 (przecina oś Ot). Wartość tego współczynnika ma wartość (wiemy
-także, że s(0)=g(0)):
-	\begin{eqnarray} 
-		{s(t_{2})- s(t_{1}) \over {t_{2} -t_{1}}}={s(t')- s(0) \over {t' -0}}={s(0) \over t'}={g(0) \over t'}
-	\end{eqnarray}\\
-	Podstawiając:
-	\begin{eqnarray} 
-		-{g(0) \over t'}= - {1 \over T} g(0)
-	\end{eqnarray}\\
-	Wychodzi:
-	\begin{eqnarray} 
-		T=t'
-	\end{eqnarray}\\
-Interpretacja: wartość parametru T odczytujemy jako argument przecięcia się interpolowanej stycznej
-w punkcie t=0 z osią Ot. Mając T wyliczamy k ze wzoru: 
-	\begin{eqnarray} 
-		k = g (0)T
-	\end{eqnarray}
-	%Wykres itp
+	\begin{itemize}
+		\item Charakterystyka skokowa
+		
+	Charakterystyka skokowa w dziedzinie czasu opisana jest wzorem:
 	
-	Charakterystyka skokowa:
-	\begin{eqnarray} 
-			h(t)= k(1- e^{-{1 \over T}})
-	\end{eqnarray}		
-Aby odczytać wartość k i T postępujemy w następujący sposób:
-Bierzemy granicę wartości funkcji
-	\begin{eqnarray} 
-		\lim_{t \to \infty}{h(t)} = \lim_{t \to \infty}{k(1-e^{-{t \over T}})} 
-	\end{eqnarray}	
-A więc wartość k odpowiada równaniu asymptoty poziomej w nieskończoności y(t)=k
-Aby obliczyć T obliczamy pochodną h(t)
-	\begin{eqnarray} 
-		\dot{h}(t)={k \over T}e^{-{t \over T}}
-	\end{eqnarray}	
+\begin{equation}
+h(t) = k * t
+\end{equation}
 
-\section{Wnioski}\label{sec:wnioski}
+Na wykresie widać że wartośc funkcji w 10 sekundzie wynosi 80:
 
-1. parametry opisu stanu mogą być różne, a dalej równoznaczne
-2. 
+\begin{equation}
+h(10) = 80
+\end{equation}
 
+Z tego wynika k = 8
+
+\item Charakterystyka impulsowa
+
+Charakterystyka impulsowa w dziedzinie czasu opisana jest wzorem:
+
+\begin{equation}
+g(t) = k * 1(t)
+\end{equation}
+
+Z wykresu odczytujemy że niezależnie od czasu wartość funkcji wynosi 8, zatem k = 8.
+
+Wyniki z odczytu wykresów obu tych charakterystyk są równe.
+
+\end{itemize}
+\end{itemize}
 
 \end{document}
