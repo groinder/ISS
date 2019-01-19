@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  13 JAN 2019 02:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.18)  19 JAN 2019 17:20
 entering extended mode
-**"./Cwiczenie 1 - Sprawozdanie.tex"
-("Cwiczenie 1 - Sprawozdanie.tex"
-LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Cwiczenie 1 - Sprawozdanie.tex"
+(./Cwiczenie 1 - Sprawozdanie.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -20,25 +23,25 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\polski.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Inputenc package detected. Catcodes not changed.
    Switching to Polish text encoding and Polish maths fonts.
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ot4enc.def"
-File: ot4enc.def 2018/08/11 v2.0j Standard LaTeX file
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ot4enc.def
+File: ot4enc.def 2017/04/05 v2.0i Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
 )
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 360.
 
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\ot4cmr.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -73,33 +76,33 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count88
-\lst@gtempboxa=\box27
+\lst@gtempboxa=\box26
 \lst@token=\toks17
 \lst@length=\count89
 \lst@currlwidth=\dimen105
@@ -111,52 +114,52 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
-\lst@framebox=\box28
+\lst@framebox=\box27
 )
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen109
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen110
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count96
-LaTeX Info: Redefining \frac on input line 223.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count97
 \leftroot@=\count98
-LaTeX Info: Redefining \overline on input line 385.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count99
 \DOTSCASE@=\count100
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
 \big@size=\dimen111
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count101
 \c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
@@ -177,17 +180,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -199,21 +202,21 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip48
 \dth@everypar=\toks28
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\dvipsnam.def"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("Cwiczenie 1 - Sprawozdanie.aux")
+(./Cwiczenie 1 - Sprawozdanie.aux)
 \openout1 = `"Cwiczenie 1 - Sprawozdanie.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -231,11 +234,11 @@ LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen118
-\scratchbox=\box31
+\scratchbox=\box30
 \nofMPsegments=\count109
 \nofMParguments=\count110
 \everyMPshowfont=\toks29
@@ -244,40 +247,45 @@ LaTeX Font Info:    ... okay on input line 45.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks30
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-))))
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -290,23 +298,27 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \c@lstlisting=\count114
 LaTeX Font Info:    Try loading font information for OML+plm on input line 46.
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omlplm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+plsy on input line 46.
 
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omsplsy.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+plex on input line 46.
 
 
-(C:\Users\krzys\AppData\Roaming\MiKTeX\2.9\tex/latex/polski\omxplex.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -317,17 +329,17 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 46.
 LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -340,7 +352,7 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 59.
  [1
 
-{C:/Users/krzys/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
@@ -351,12 +363,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--367
  []
 
 [4]
-<prop_step.png, id=27, 770.88pt x 517.18219pt>
+<prop_step.png, id=28, 770.88pt x 517.18219pt>
 File: prop_step.png Graphic file (type png)
 <use prop_step.png>
 Package pdftex.def Info: prop_step.png  used on input line 409.
 (pdftex.def)             Requested size: 426.79134pt x 286.32927pt.
-<prop_impulse.png, id=28, 738.50906pt x 465.23813pt>
+<prop_impulse.png, id=29, 738.50906pt x 465.23813pt>
 File: prop_impulse.png Graphic file (type png)
 <use prop_impulse.png>
 Package pdftex.def Info: prop_impulse.png  used on input line 410.
@@ -372,12 +384,12 @@ Overfull \hbox (49.88586pt too wide) in paragraph at lines 409--411
  []
 
 [5 <./prop_step.png (PNG copy)>]
-<cal_step.png, id=33, 632.3625pt x 435.87843pt>
+<cal_step.png, id=34, 632.3625pt x 435.87843pt>
 File: cal_step.png Graphic file (type png)
 <use cal_step.png>
 Package pdftex.def Info: cal_step.png  used on input line 419.
 (pdftex.def)             Requested size: 426.79134pt x 294.18529pt.
-<cal_impulse.png, id=34, 832.61063pt x 438.13687pt>
+<cal_impulse.png, id=35, 832.61063pt x 438.13687pt>
 File: cal_impulse.png Graphic file (type png)
 <use cal_impulse.png>
 Package pdftex.def Info: cal_impulse.png  used on input line 420.
@@ -393,12 +405,12 @@ Overfull \hbox (49.88586pt too wide) in paragraph at lines 419--421
  []
 
 [6 <./prop_impulse.png (PNG copy)> <./cal_step.png (PNG copy)>]
-<iner1_step.png, id=38, 718.18312pt x 478.03593pt>
+<iner1_step.png, id=39, 718.18312pt x 478.03593pt>
 File: iner1_step.png Graphic file (type png)
 <use iner1_step.png>
 Package pdftex.def Info: iner1_step.png  used on input line 428.
 (pdftex.def)             Requested size: 426.79134pt x 284.08842pt.
-<iner1_impulse.png, id=39, 746.79pt x 536.0025pt>
+<iner1_impulse.png, id=40, 746.79pt x 536.0025pt>
 File: iner1_impulse.png Graphic file (type png)
 <use iner1_impulse.png>
 Package pdftex.def Info: iner1_impulse.png  used on input line 429.
@@ -414,12 +426,12 @@ Overfull \hbox (49.88586pt too wide) in paragraph at lines 428--430
  []
 
 [7 <./cal_impulse.png (PNG copy)> <./iner1_step.png (PNG copy)>]
-<osc_step.png, id=44, 776.9025pt x 520.19344pt>
+<osc_step.png, id=45, 776.9025pt x 520.19344pt>
 File: osc_step.png Graphic file (type png)
 <use osc_step.png>
 Package pdftex.def Info: osc_step.png  used on input line 440.
 (pdftex.def)             Requested size: 426.79134pt x 285.7739pt.
-<osc_impulse.png, id=45, 833.36343pt x 694.84593pt>
+<osc_impulse.png, id=46, 833.36343pt x 694.84593pt>
 File: osc_impulse.png Graphic file (type png)
 <use osc_impulse.png>
 Package pdftex.def Info: osc_impulse.png  used on input line 441.
@@ -435,38 +447,37 @@ Overfull \hbox (49.88586pt too wide) in paragraph at lines 440--442
  []
 
 [8 <./iner1_impulse.png (PNG copy)> <./osc_step.png (PNG copy)>] [9 <./osc_impu
-lse.png (PNG copy)>] [10] ("Cwiczenie 1 - Sprawozdanie.aux") ) 
+lse.png (PNG copy)>] [10] (./Cwiczenie 1 - Sprawozdanie.aux) ) 
 Here is how much of TeX's memory you used:
- 4041 strings out of 492946
- 56263 string characters out of 3135527
- 320898 words of memory out of 3000000
- 7846 multiletter control sequences out of 15000+200000
- 16353 words of font info for 51 fonts, out of 3000000 for 9000
+ 4043 strings out of 492649
+ 56726 string characters out of 6129621
+ 160851 words of memory out of 5000000
+ 7832 multiletter control sequences out of 15000+600000
+ 16353 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,40p,667b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/krzys/A
-ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/krzys/AppData/R
-oaming/MiKTeX/2.9/fonts/enc/dvips/pl/plsc.enc}{C:/Users/krzys/AppData/Roaming/M
-iKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.
-9/fonts/enc/dvips/pl/plme.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/
-enc/dvips/pl/plrm.enc}{C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvip
-s/pl/plit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx10.p
-fb><C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb>
-<C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbxti10.pfb><
-C:/Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plex10.pfb><C:/
-Users/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi10.pfb><C:/Use
-rs/krzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users/k
-rzys/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/krzys
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/krzys/App
-Data/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb><C:/Users/krzys/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr5.pfb><C:/Users/krzys/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/krzys/AppData/Roaming/M
-iKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/krzys/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/pl/plsy7.pfb>
-Output written on "Cwiczenie 1 - Sprawozdanie.pdf" (10 pages, 245537 bytes).
+ 41i,21n,40p,660b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texli
+ve/2018/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/local/texlive/2018/texmf-d
+ist/fonts/enc/dvips/pl/plsc.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/d
+vips/pl/plmi.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/pl/plme.en
+c}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/local/t
+exlive/2018/texmf-dist/fonts/enc/dvips/pl/plit.enc}</usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/pl/plbx10.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/pl/plbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/pl/plbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl
+/plex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plmi10.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plmi7.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/pl/plr12.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/pl/plr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/pl/plr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/pl/plr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plsy10.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pl/plsy7.pfb>
+Output written on "Cwiczenie 1 - Sprawozdanie.pdf" (10 pages, 233012 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
